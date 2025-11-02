@@ -41,6 +41,9 @@ cd <YOUR_PROJECT_NAME>
 # Install dependencies
 npm install
 
+#start Json-server
+json-server --watch db.json --port 3000
+
 # Start development server
 npm run dev
 ```
@@ -68,8 +71,6 @@ src/
 │   ├── ui/              # shadcn UI components
 │   ├── CharacterTable.tsx  # Main table component
 │   └── HealthFilter.tsx    # Health filter dropdown
-├── data/
-│   └── mockData.ts      # Mock data generation
 ├── lib/
 │   ├── utils.ts         # Utility functions
 │   └── tableUtils.ts    # Table-specific utilities
